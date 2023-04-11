@@ -1,0 +1,89 @@
+* {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+    }
+    .tampilan {
+      background-color: #201a17;
+      width: 360px;
+      height: 640px;
+      margin: 15px;
+      padding: 0px;
+      border-radius: 20px;
+    }
+    #display {
+      background-color: #3e2f26;
+      width: 360px;
+      height: 213px;
+      border-radius: 20px;
+      border: none;
+      grid-column: span 4;
+      text-align: right;
+      font-size: 100px;
+      color: white;
+      outline: none;
+    }
+    svg {
+      width: 20px;
+      color: #d7c2b8;
+    }
+    .line_1 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 8px;
+    }
+    .line_1 #ac {
+      background-color: #4a490a;
+      color: #e9e699;
+      width: 74px;
+      height: 74px;
+      border-radius: 100px;
+    }
+    .line_1 .perhitungan {
+        background-color: #5c4131;
+        color: #e9e699;
+        width: 74px;
+        height: 74px;
+        border-radius: 100px;
+    }
+    .line_1 #hasil {
+        background-color: #723607;
+        color: #e9e699;
+        width: 74px;
+        height: 74px;
+        border-radius: 100px;
+    }
+    .line_1 p {
+        background-color: #5c4113;
+        color: #ffdbc5;
+        width: 74px;
+        height: 74px;
+        border-radius: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .line_1 p:active {
+      background-color: #4e4641;
+      color: #e9e699;
+      width: 74px;
+      height: 74px;
+      border-radius: 70px;
+    }
+    .line_1 .perhitungan:active {
+        background-color: #4e4641;
+        color: #e9e699;
+        width: 74px;
+        height: 74px;
+        border-radius: 100px;
+    }

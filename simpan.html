@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tampilan">
+      <input type="text" id="display" />
+      <div class="line_1">
+        <p id="ac" data-value="AC">AC</p>
+        <p class="perhitungan" data-value="()">( )</p>
+        <p class="perhitungan" data-value="%">%</p>
+        <p class="perhitungan" data-value="/">/</p>
+        <p class="num" data-value="7">7</p>
+        <p class="num" data-value="8">8</p>
+        <p class="num" data-value="9">9</p>
+        <p class="perhitungan" data-value="*">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </p>
+        <p class="num" data-value="4">4</p>
+        <p class="num" data-value="5">5</p>
+        <p class="num" data-value="6">6</p>
+        <p class="perhitungan" data-value="-">-</p>
+        <p class="num" data-value="1">1</p>
+        <p class="num" data-value="2">2</p>
+        <p class="num" data-value="3">3</p>
+        <p class="perhitungan" id="tambah" data-value="+">+</p>
+        <p class="num" data-value="0">0</p>
+        <p class="num" data-value=".">,</p>
+        <p id="delete">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.515 10.674a1.875 1.875 0 000 2.652L8.89 19.7c.352.351.829.549 1.326.549H19.5a3 3 0 003-3V6.75a3 3 0 00-3-3h-9.284c-.497 0-.974.198-1.326.55l-6.375 6.374zM12.53 9.22a.75.75 0 10-1.06 1.06L13.19 12l-1.72 1.72a.75.75 0 101.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 101.06-1.06L15.31 12l1.72-1.72a.75.75 0 10-1.06-1.06l-1.72 1.72-1.72-1.72z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </p>
+        <p id="hasil" data-value="=">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 9a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9zm0 6.75a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </p>
+      </div>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>
